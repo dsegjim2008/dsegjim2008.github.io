@@ -1,0 +1,24 @@
+/* Este archivo tendrá todas las reglas css que se apliquen sobre el
+ * body y sobre el elemento identificado como Cabecera  que ocupará el 20% de altura de la página
+ * (2puntos)
+ */
+
+ .cabecera{
+    background-color: salmon;
+    height: 20%;
+    width: 100%;
+    border: red solid 3px;
+ }
+
+ #nombre{
+    position: absolute;
+    text-align: center;
+    padding-left: 60%;
+    font-size: 30px;
+ }
+
+ #foto{
+    position: static;
+    margin-top: 0;
+ }
+

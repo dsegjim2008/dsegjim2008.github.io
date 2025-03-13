@@ -1,0 +1,18 @@
+/*
+ * El Pie ocupará el 10% de la página 
+ * El párrafo estará flotando a la derecha y a la mitad de tamaño de letra
+ * del normal (1p)
+ * 
+ * 
+ */ 
+
+.pie{
+    position: static;
+    bottom: 0;
+    font-size: medium;
+    height: 10%;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: white;
+    color: green;
+}

@@ -1,0 +1,131 @@
+/*
+ * Este archivo css tendrá todas las reglas css aplicables sobre los 
+ * elementos del div Cuerpo
+ *  
+ * La Lista: al menos una regla usando un pseudoelemento (1,5 p)
+ * 
+ * El Párrafo: al menos una regla 
+ *             cargando la fuente que tiene en la carpeta fuentes 
+ *             y aplicándola. (1.5 p)
+ * 
+ * La tabla:  al menos una regla usando pseudoclases de posición 
+ * 	          una regla usando hover para que cambie el color de fondo en
+ * 			  las celdas sin contenido. (3 p)
+ * 
+ * Un formulario: (1p)
+ * 
+ */
+
+@font-face {
+    font-family: SkinnyLove;
+    src: url(/examenU3/fuentes/KGSkinnyLove.ttf);
+}
+
+hr{
+    color: black;
+}
+
+ ol{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+li::first-letter{
+    color: red;
+}
+
+h5{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+#lorem{
+    font-family: SkinnyLove;
+    width: 80%;
+    height: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: dotted 3px black;
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+    font-style: italic;
+}
+
+fieldset{
+    position: static;
+    align-items: center;
+    width: 20%;
+    height: 15%;
+    border: 2px solid black;
+    border: solid green 2px;
+    margin-left: 40%;
+}
+
+caption{
+    color: red;
+    text-shadow:1px 1px white;
+    border: solid 3px green;
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+table{
+    margin: 20px;
+    border: solid black 1px;
+}
+
+table, th, td{
+    border-collapse: separate;
+}
+
+td:hover{
+    background-color: aquamarine;
+}
+
+th{
+    background-color: darkgreen;
+    color: white;
+}
+
+td:nth-child(1){
+    background-color: gray;
+    color: white;
+}
+
+td{
+    background-color: greenyellow;
+}
+
+table{
+    width: 90%;
+    height: 10%;
+}
+
+#login{
+    width: 100%;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+#password{
+    width: 100%;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: salmon;
+    width: 100%;
+}
+
+.cuerpo{
+    border: purple 3px solid;
+    background-color: rgb(247, 123, 247);
+}
